@@ -118,7 +118,25 @@ window.addEventListener("resize", () => {
   renderer.setSize(sizes.width, sizes.height);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 });
+// function resize() {
 
+// 	const container = renderer.domElement.parentNode;
+
+// 	if( container ) {
+
+// 		const width = container.offsetWidth;
+// 		const height = container.offsetHeight;
+
+// 		renderer.setSize( width, height );
+
+// 		camera.aspect = width / height;
+// 		camera.updateProjectionMatrix();
+
+// 	}
+
+// }
+
+// window.addEventListener( 'resize', resize );
 /**
  * Camera
  */
